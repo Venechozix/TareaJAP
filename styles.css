@@ -5,7 +5,16 @@ body {
 .image{
     border: 5px solid green;
     border-radius: 10px;
+    height: 450px;
+    opacity: 0;
+    animation: fadeIn  0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
     height: 400px;
+    opacity: 1;
+  }
 }
 
 .link-button {
